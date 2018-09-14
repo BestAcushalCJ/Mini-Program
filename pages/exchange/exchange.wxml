@@ -1,0 +1,6 @@
+<view class='container'>
+  <view class="inputView">
+    <textarea class="input" type="text" placeholder="请输入兑换码" placeholder-style="color: #C0C0C0" bindinput='codeinput' maxlength='20' />
+  </view>
+  <button class="exchange" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="exchange">兑换</button>
+</view>

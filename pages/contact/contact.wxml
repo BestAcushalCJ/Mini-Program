@@ -1,0 +1,14 @@
+<image class='a' src="/pages/images/timg233.jpg"></image>
+<view>
+<text class='b'>万洋文化借书服务</text>
+</view>
+<view>
+<text class='c'>"xxxxx"app是专注于大学生的图书借阅平台，\n以图书借阅便利，减少纸张浪费和书籍利用率\n为宗旨，学生可以扫描附近的移动图书馆来借\n阅、分享书籍。</text>
+</view>
+<view class='d'>
+<text class='e'>公司热线<text class='f'>:027-12345678</text></text> 
+<text class='e'>\n公司QQ:<text class='f'>123456789</text></text> 
+<text class='e'>\n公司邮箱:<text class='f'>123456789@qq.com</text></text>
+</view>
+<image class='g' src='/pages/images/mainscan.png'></image>
+

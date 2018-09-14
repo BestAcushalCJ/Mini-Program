@@ -1,0 +1,33 @@
+<view class='container'>
+  <view class="goods-des-info" style="margin-top:2rpx;" wx:if="{{reputations}}">
+    <block wx:for="{{reputations}}" wx:key="id" >
+        <view class='item'>
+        <view class='pic_name_time'>
+          <view class='user_image'>
+        <image class='user_pic' src='../images/user1.png' ></image>
+        </view>
+        <view class='user_name'>
+          <view class='username'>{{item.uid}}</view>
+        </view>
+        <view class='comment_time'>
+         <view class='time'>{{item.cmt_time}}</view>
+        </view>
+        </view>
+        
+        <view class='forcomment'>
+        <view class='reputationStr'> {{item.comment}}</view>
+        </view>
+        
+          
+         
+        </view>
+    </block>
+  </view>
+
+  <view class="search-content">
+    <input placeholder="请输入评论（不超过60字）" class="search-input" maxlength="60" value = "{{reputationStr}}" confirm-type="提交" bindinput='bindCommentInput' bindconfirm='toSubmit'>
+    </input>
+    <button class='search-btn' bindtap="toSubmit">提交
+    </button>
+  </view>
+</view>

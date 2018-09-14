@@ -1,0 +1,20 @@
+<scroll-view scroll-y="true" bindscrolltolower="pullUpLoadingEvent">
+  <image src='/pages/images/logo.png' class='image'></image>
+  <view class='main'>
+  </view>
+  <view class='text'>已借阅的书籍 :</view>
+  <view class='booklist'>
+    <view class='nihao' wx:for="{{list}}" wx:key="{{index}}">
+      <view class='baw'>
+        <view bindtap='click' class='book'>
+          <navigator url='../book/book?id={{item.bookid}}'>
+            <image class='book' src="{{bookpicture[index]}}" mode='scaleToFill' />
+          </navigator>
+        </view>
+        <view class='name'>
+          <text>{{item.bookname}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>

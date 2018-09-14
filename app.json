@@ -1,0 +1,87 @@
+{
+  "pages": [
+    "pages/logs/logs",
+    "pages/scan/scan",
+    "pages/index/index",
+    "pages/info/info",
+    "pages/register/register",
+    "pages/community/community",
+    "pages/commentWriting/commentWriting",
+    "pages/donatedBookDetail/donatedBookDetail",
+    "pages/personal/personal",
+    "pages/test/test",
+    "pages/book/book",
+    "pages/edit/edit",
+    "pages/wallet/wallet",
+    "pages/borrow/borrow",
+    "pages/collect/collect",
+    "pages/friend/friend",
+    "pages/follow/follow",
+    "pages/clear/clear",
+    "pages/contact/contact",
+    "pages/suggestion/suggestion",
+    "pages/blankinfo/blankinfo",
+    "pages/birthday/birthday",
+    "pages/forget/forget",
+    "pages/commentUserInfo/commentUserInfo",
+    "pages/vip/vip",
+    "pages/recharge/recharge",
+    "pages/exchange/exchange",
+    "pages/forgift/forgift",
+    "pages/identity/identity",
+    "pages/else_info/else_info",
+    "pages/commentComment/commentComment",
+    "pages/navigation/navitab/navitab",
+    "pages/navigation/navibook/navibook",
+    "pages/personoption/usercommit/usercommit",
+    "pages/personoption/sharemybook/sharemybook",
+    "pages/personoption/sharebook/sharebook",
+    "pages/personoption/collectbook/collectbook",
+    "pages/personoption/collectbookcom/collectbookcom"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF0000",
+    "list": [
+      {
+        "pagePath": "pages/scan/scan",
+        "text": "扫码借书",
+        "iconPath": "pages/images/saoma.png",
+        "selectedIconPath": "pages/images/sesaoma.png",
+        "color": "#000000",
+        "selectedColor": "#FF0000"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "智能推荐",
+        "iconPath": "pages/images/tuijian.png",
+        "selectedIconPath": "pages/images/setuijian.png"
+      },
+      {
+        "pagePath": "pages/navigation/navitab/navitab",
+        "text": "图书分类",
+        "iconPath": "pages/images/seLibra.png",
+        "selectedIconPath": "pages/images/Libra.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "书友社区",
+        "iconPath": "pages/images/sheqv.png",
+        "selectedIconPath": "pages/images/sesheqv.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": "pages/images/geren.png",
+        "selectedIconPath": "pages/images/segeren.png"
+      }
+    ],
+    "borderStyle": "black"
+  }
+}

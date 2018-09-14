@@ -1,0 +1,66 @@
+<!--pages/navigation/navitab/navitab.wxml-->
+<view class='lib'>
+
+<view class='topbackground'>
+<image class='imagetop' src='../../images/top.png'></image>
+</view>
+
+<view class='secondback'>
+<!--第1行-->
+<view class='line1'>
+<image class='techback' src='../../images/techback.png' style="opacity:{{0.8}}" ></image>
+<image class='reliback' src='../../images/reliback.png' style="opacity:{{0.8}}"></image>
+<image class='topback' src='../../images/topbook.png' style="opacity:{{0.8}}"></image>
+<text class='text1'>技术书籍</text>
+<text class='text2'>人文书籍</text>
+<text class='text3'>畅销书籍</text>
+
+</view>
+<!--第2行-->
+<view class='line1'>
+<image class='techback' src='../../images/techback.png' style="opacity:{{0.8}}" ></image>
+<image class='reliback' src='../../images/reliback.png' style="opacity:{{0.8}}"></image>
+<image class='topback' src='../../images/topbook.png' style="opacity:{{0.8}}"></image>
+<text class='text1'>技术书籍</text>
+<text class='text2'>人文书籍</text>
+<text class='text3'>畅销书籍</text>
+
+</view>
+<!--第3行-->
+<view class='line1'>
+<image class='techback' src='../../images/techback.png' style="opacity:{{0.8}}" ></image>
+<image class='reliback' src='../../images/reliback.png' style="opacity:{{0.8}}"></image>
+<image class='topback' src='../../images/topbook.png' style="opacity:{{0.8}}"></image>
+<text class='text1'>技术书籍</text>
+<text class='text2'>人文书籍</text>
+<text class='text3'>畅销书籍</text>
+
+</view>
+<!--第4行-->
+<view class='line1'>
+<image class='techback' src='../../images/techback.png' style="opacity:{{0.8}}" ></image>
+<image class='reliback' src='../../images/reliback.png' style="opacity:{{0.8}}"></image>
+<image class='topback' src='../../images/topbook.png' style="opacity:{{0.8}}"></image>
+<text class='text1'>技术书籍</text>
+<text class='text2'>人文书籍</text>
+<text class='text3'>畅销书籍</text>
+
+</view>
+<!--第5行-->
+<view class='line1'>
+<image class='techback' src='../../images/techback.png' style="opacity:{{0.8}}" ></image>
+<image class='reliback' src='../../images/reliback.png' style="opacity:{{0.8}}"></image>
+<image class='topback' src='../../images/topbook.png' style="opacity:{{0.8}}"></image>
+<text class='text1'>技术书籍</text>
+<text class='text2'>人文书籍</text>
+<text class='text3'>畅销书籍</text>
+
+</view>
+<!--第一行-->
+</view>
+</view>
+
+
+
+
+

@@ -1,0 +1,61 @@
+<view class='container'>
+  
+  <view class='item1'>
+    <label class='word-left'>昵称：</label>
+    <label class='word-right'>{{nickname}}      </label>
+  </view>
+  <view class="line"></view>
+
+  <view class='item1'>
+    <label class='word-left'>用户名：</label>
+    <label class='word-right'>{{phonenum}}</label>
+  </view>
+  <view class="line"></view>
+
+   <view class='item2'>
+    <label class='word-left'>我的签名：</label>
+    <label class='word-right'>{{signature}}</label>
+  </view>
+  <view class="line"></view>
+
+  <view class='item3'>
+    <label class='word-left'>性别：</label>
+    <label class='word-right'>{{sex}}</label>
+  </view>
+  <view class="line"></view>
+
+  <view class='item3'>
+    <label class='word-left'>生日：</label>
+    <label class='word-right'>{{birthday}}</label>
+  </view>
+  <view class="line"></view>
+
+  <view class='item3'>
+    <label class='word-left'>所在地：</label>
+    <label class='word-right'>{{localplace}}</label>
+  </view>
+  <view class="line"></view>
+
+  <view class='item4'>
+    <label class='word-left'>手机号码：</label>
+    <view class='word-right'>
+    <text hidden='{{phonenumSta}}'>*********</text>
+    <text hidden='{{!phonenumSta}}'>{{phonenum}}</text>
+    </view>
+  </view>
+  <view class="line"></view>
+
+  <view class='item4'>
+    <label class='word-left'>微信号：</label>
+    <view class='word-right'>
+    <text hidden='{{weixinnumSta}}'>*********</text>
+    <text hidden='{{!weixinnumSta}}'>{{weixinnum}}</text>
+    </view>
+  
+  </view>
+  <view class="line"></view>
+
+  <view class='edit'>
+    <button class="editBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="cancel">取消关注</button>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<view class='container'>
+  <view class='vipimages'>
+    <image class='vip' src='../images/vip1.png'></image>
+    <image class='vip' src='../images/vip2.png'></image>
+    <image class='vip' src='../images/vip3.png'></image>
+    <image class='vip' src='../images/vip4.png'></image>
+    <image class='vip' src='../images/vip5.png'></image>
+    <image class='vip' src='../images/vip6.png'></image>
+  </view>
+</view>

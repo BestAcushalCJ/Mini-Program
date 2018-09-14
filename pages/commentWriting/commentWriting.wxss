@@ -1,0 +1,54 @@
+page{
+  height: 100%
+}
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bookname_item{
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 18px;
+}
+
+.line{
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  margin-top: 0px;
+}
+
+.comment_item{
+  height: 42%;
+  margin-top: 5%;
+  font-size: 18px;
+  border: 1rpx #ccc solid;
+  border-radius: 20rpx;
+}
+
+.textarea_comment{
+  height: 100%;
+}
+
+.image_item{
+  height: 40%;
+}
+
+.img{
+  height: 100%;
+  width: 100%;
+}
+
+.submit_item{
+  height: 10%;
+}
+
+.submit_btn{
+  width: 30%;
+}
+.tip{
+  text-align: right;
+  font-size: 11px;
+}

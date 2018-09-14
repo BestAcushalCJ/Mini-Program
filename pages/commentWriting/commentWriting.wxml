@@ -1,0 +1,23 @@
+<view class= "container">
+ <view class = "bookname_item">
+  <input class= "input_bookname" placeholder= "请输入书名" bindinput= "booknameInput"></input>
+ </view>
+ <view class='line'></view>
+ <view class= "comment_item">
+  <textarea class= "textarea_comment" placeholder= "请输入书评" maxlength= "300" auto-height= "true" show-confirm-bar = "true" bindinput= "commentInput">
+  </textarea>
+  <!-- <view>
+    <text class='tip'>300字数以下</text>
+  </view> -->
+  <!-- <text class='tip'>300字数以下</text> -->
+ </view>
+ <view class='tip'>
+    300字数以下
+  </view>
+ <view class= "image_item">
+  <image class= "img" src = "{{tempFilePaths[0]}}"></image>
+ </view>
+ <view class= "submit_item">
+  <button class= "submit_btn" type= "primary" bindtap= "submitBtnTap">{{btnType}}</button>
+ </view>
+</view>

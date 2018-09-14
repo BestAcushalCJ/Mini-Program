@@ -1,0 +1,13 @@
+<template name = "comment_item">
+ <view class = "comment_card">
+  <image class="comment_image" src = "{{item.img_url}}" mode = "aspectFill">
+  </image>
+  <view class = "comment_addition">
+   <text class = "comment_author">{{item.nickname}}</text>
+  </view>
+  <view class = "comment_content">
+   <text class = "comment_content_text">{{item.comment}}</text>
+  </view>
+  <view class = "comment_maketime">{{item.comment_time}}</view>
+ </view>
+</template>

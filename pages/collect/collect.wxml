@@ -1,0 +1,19 @@
+<scroll-view scroll-y="true" bindscrolltolower="">
+  <view class="skeleton-group" wx:for="{{collect}}" wx:key="{{index}}">
+    <navigator url='../book/book?id={{item.bookid}}'>
+      <view class="skeleton-group-cover">
+        <view class='book'>
+          <image class='book' src="{{item.bookpicture}}" mode='scaleToFill' />
+        </view>
+      </view>
+      <view class="skeleton-group-text">
+        <view class="skeleton-group-title">{{item.bookname}}</view>
+        <view class="skeleton-group-desc">
+          <!-- <view>{{item.brief}}</view> -->
+          <view>{{item.edition}}</view>
+          <view>{{item.author}}</view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</scroll-view>

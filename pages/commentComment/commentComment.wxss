@@ -1,0 +1,112 @@
+.container{
+  height: 100%;
+}
+
+.search-content{
+  position: fixed;
+  bottom: 0;
+   background: white;
+   border:  2px solid #DCDCDC;
+   width:100%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-top: auto;
+   padding-left: 20rpx;
+   padding-bottom: auto;
+   margin: auto;
+   margin-bottom:0px;
+   height: 70rpx;
+   border-radius:5px 5px;
+}
+.search-input{
+  width: 600rpx;
+  font-size: 28rpx;
+}
+.search-btn{
+  background-color: #32CD32;
+  border-radius: 0px;
+  width: 150rpx;
+  height: 70rpx;
+  margin-right: 0rpx;
+  font-size: 24rpx;
+  align-items: center;
+  border-top-left-radius: 0rpx;
+  border-bottom-left-radius: 0rpx;
+  border:none;
+  position: relative;
+}
+.goods-des-info {
+  width: 90%;
+  margin-top: 300rpx;
+}
+
+ .item{
+   margin: 0px auto;
+ padding-bottom: 10rpx;
+  padding-top: 10rpx;
+  padding-left: 25rpx;
+  padding-right: 25rpx;
+  border-bottom: solid 5rpx  rgb(245, 245, 245);
+} 
+.pic_name_time {
+  width: 500rpx;
+  height: 60rpx;
+  margin-bottom: 3rpx;
+}
+.user_pic {
+  border-radius: 50%;
+  width: 50rpx;
+  height: 50rpx;
+}
+.user_image {
+  position: absolute;
+  width: 50rpx;
+  height: 80rpx;
+}
+.user_name {
+  width: 100rpx;
+  height: 20rpx;
+  margin-bottom: 10rpx;
+  margin-left: 30rpx;
+  font-size: 10px;
+  font-weight: bold;
+}
+.username {
+  width: 100rpx;
+  height: 20rpx;
+  margin-bottom: 10rpx;
+  margin-left: 30rpx;
+  font-size: 10px;
+  font-weight: bold;
+}
+.comment_time {
+width: 200rpx;
+  height: 20rpx;
+  font-weight:300; 
+  color: gray;
+  margin-left: 30rpx;
+  font-size: 8px;
+}
+.forcomment {
+font-size: 13px;
+margin-top: 4rpx;
+}
+.time {
+  width: 200rpx;
+  height: 20rpx;
+  font-weight:300; 
+  color: gray;
+  margin-left: 30rpx;
+  font-size: 8px;
+}
+.reputationStr{
+  /* display: block; */
+  width: 100%;
+  font-size: 12px;
+   margin-bottom: 2rpx;
+   min-height: 50rpx;
+  /* padding-left: 20rpx; */
+}
+
+

@@ -1,0 +1,37 @@
+<view class='container'>
+
+  <view class='title'>
+    <text>请选择你要充值的金额：</text>
+  </view>
+  <view class='moneylist'>
+    <view class="inputView" hidden='{{Sta1}}' bindtap='five'>
+      <text class="money">5元</text>
+    </view>
+    <view class="inputView1" hidden='{{!Sta1}}'bindtap='five'>
+      <text class="money">5元</text>
+    </view>
+
+    <view class="inputView" hidden='{{Sta2}}' bindtap='ten'>
+      <text class="money">10元</text>
+    </view>
+    <view class="inputView1" hidden='{{!Sta2}}'bindtap='ten'>
+      <text class="money">10元</text>
+    </view>
+
+    <view class="inputView" hidden='{{Sta3}}' bindtap='twenty'>
+      <text class="money">20元</text>
+    </view>
+    <view class="inputView1" hidden='{{!Sta3}}'bindtap='twenty'>
+      <text class="money">20元</text>
+    </view>
+
+    <view class="inputView" hidden='{{Sta4}}' bindtap='fifty'>
+      <text class="money">50元</text>
+    </view>
+    <view class="inputView1" hidden='{{!Sta4}}'bindtap='fifty'>
+      <text class="money">50元</text>
+    </view>
+  </view>
+
+  <button class="recharge" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="recharge">充值</button>
+</view>

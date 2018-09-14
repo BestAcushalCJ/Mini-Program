@@ -1,0 +1,78 @@
+
+.skeleton-group {
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+  height: 140px;
+  background-color: #fff;
+  margin-top: 1rpx;
+}
+
+.book {
+  height: 130px;
+  width: 100px;
+  border: 1px solid #ddd;
+}
+.picb{
+  width: 100%;
+  height: 100%;
+}
+.skeleton-group-cover, .skeleton-group-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.skeleton-group-cover {
+  padding: 30rpx 10rpx;
+  width: 100px;
+  margin-left: 30rpx;
+  margin-right: 40rpx;
+  border-radius: 4rpx;
+  float: left;
+}
+
+/* .skeleton-group-cover:before {
+  content: "";
+  display: block;
+  background-color: rgb(201, 201, 201);
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 6rpx;
+} */
+
+.skeleton-group-text {    
+  padding: 30rpx 0rpx;
+  /* width: 265; */
+  float: left;
+}
+
+.skeleton-group-title {
+  /* background-color: rgb(201, 201, 201); */
+  width: 100%;
+  height: 50rpx;
+  margin-bottom: 10rpx;
+  font-size: 15px;
+}
+
+.skeleton-group-desc:before, .skeleton-group-desc > view,
+.skeleton-group-desc:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(201, 201, 201); */
+  border-radius: 4rpx;
+  font-size: 13px;
+  color: #ccc;
+}
+
+.skeleton-group-desc:after {
+  width: 80%;
+}
+
+.swiper-tab {
+  display: flex;
+  flex-direction: row;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid #777;
+}

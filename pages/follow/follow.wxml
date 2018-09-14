@@ -1,0 +1,12 @@
+<view class='container'>
+  <view class='person' wx:for="{{name}}" wx:key="{{index}}">
+    <navigator class='headpic' url='../else_info/else_info?id={{uid[index].col_uid}}'>
+      <view class='pic'>
+        <image class='pic' src='../images/logo.png'></image>
+      </view>
+    </navigator>
+    <view class='name'>
+      <text>{{item}}</text>
+    </view>
+  </view>
+</view>

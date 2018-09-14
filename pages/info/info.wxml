@@ -1,0 +1,140 @@
+<view class='container'>
+  <view class='per'>
+    <view class='img'>
+      <image src='/pages/images/logo.png' style='width:100%; height:100%;'></image>
+    </view>
+    <button class='btn' plain='true' style='border:none; color:white;'>更改头像</button>
+    <view class='headpic'>
+      <navigator url='../info/info' class=''>
+        <image src="/pages/images/logo.png" class="main"></image>
+      </navigator>
+      <text class='word'>用户null</text>
+      <text class='biaoqian'>月卡用户</text>
+  </view>
+  <view class='data'>
+      <text class='n_n' style='margin-left:10px;'>关注</text>
+      <text class='n_n' style='margin-right:10px;'>0</text>
+      <text class='n_n'>被关注</text>
+      <text class='n_n'>0</text>
+      <text class='jianjie'>简介：这个人很懒，什么都没留下</text>
+  </view>
+  </view>
+  <view style='position:fixed; top:200px;width:100%;background:white; z-index:111;'>
+    <scroll-view class='list_tab' scroll-x='true'>
+         <view class="list_tab_item {{currentTab==0?'active':''}}" data-current="0" bindtap='switchNav'>简介</view>
+         <view class="list_tab_item {{currentTab==1?'active':''}}" data-current="1" bindtap='switchNav'>借阅图书</view>
+         <view class="list_tab_item {{currentTab==2?'active':''}}" data-current="2" bindtap='switchNav'>更多</view>
+      </scroll-view>
+  </view>
+  <view class='txt'>
+      <!-- tab内容 -->
+      <swiper class='list_content' current='{{currentTab}}' duration='300' interval='1000' bindchange='switchTab'>
+         <swiper-item class='sw_i'>
+            <scroll-view class='sc_i' scroll-y='true'>
+                <view class='nn'>
+                  <text>昵称：</text>
+                  <text>用户null</text>
+                </view>
+                <view class='nn'>
+                  <text>简介：</text>
+                  <text>这个人很懒，什么都没留下</text>
+                </view>
+                <view class='nn'>
+                  <text>生日：</text>
+                  <text>1997-0-0</text>
+                </view>
+                <view class='nn'>
+                  <text>性别：</text>
+                  <text>男</text>
+                </view>
+                <view class='nn'>
+                  <text>微信号：</text>
+                  <text>dafgfdasd</text>
+                </view>
+                <view class='nn'>
+                  <text>手机号：</text>
+                  <text>13000001111</text>
+                </view>
+                <view class='nn'>
+                  <text>地址：</text>
+                  <text>大号ID哈慈好嗲好词啊</text>
+                </view>
+                <view class='nn'>
+                  <text>标签：</text>
+                  <text>月卡用户</text>
+                </view>
+            </scroll-view>
+         </swiper-item>
+         <swiper-item>
+          <block wx:for='{{booklist}}'>
+            <view class='book_n' style='width:32.5%; height:115px; display:inline-block; text-align:center; margin-top:10px;'>
+              <image style='height:100px; width:80px;margin:0px auto;' src='{{item.src}}'></image>
+              <text style='width:100%; height:15px; text-align:center;font-size:12px; display:block;'>{{item.text}}</text>
+            </view>
+          </block>
+         </swiper-item>
+         <swiper-item>
+          
+         </swiper-item>
+      </swiper>
+   </view>
+</view>
+<!--   
+  <view class='item1'>
+    <label class='word-left'>昵称：</label>
+    <label class='word-right'>{{nickname}}      </label>
+  </view>
+  <view class="line"></view>
+
+  <view class='item1'>
+    <label class='word-left'>用户名：</label>
+    <label class='word-right'>{{phonenum}}</label>
+  </view>
+  <view class="line"></view>
+
+   <view class='item2'>
+    <label class='word-left'>我的签名：</label>
+    <label class='word-right'>{{signature}}</label>
+  </view>
+  <view class="line"></view>
+
+  <view class='item3'>
+    <label class='word-left'>性别：</label>
+    <label class='word-right'>{{sex}}</label>
+  </view>
+  <view class="line"></view>
+
+  <view class='item3'>
+    <label class='word-left'>生日：</label>
+    <label class='word-right'>{{birthday}}</label>
+  </view>
+  <view class="line"></view>
+
+  <view class='item3'>
+    <label class='word-left'>所在地：</label>
+    <label class='word-right'>{{localplace}}</label>
+  </view>
+  <view class="line"></view>
+
+  <view class='item4'>
+    <label class='word-left'>手机号码：</label>
+    <view class='word-right'>
+    <text hidden='{{phonenumSta}}'>*********</text>
+    <text hidden='{{!phonenumSta}}'>{{phonenum}}</text>
+    </view>
+  </view>
+  <view class="line"></view>
+
+  <view class='item4'>
+    <label class='word-left'>微信号：</label>
+    <view class='word-right'>
+    <text hidden='{{weixinnumSta}}'>*********</text>
+    <text hidden='{{!weixinnumSta}}'>{{weixinnum}}</text>
+    </view>
+  
+  </view>
+  <view class="line"></view>
+
+  <view class='edit'>
+    <button class="editBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="edit">编 辑</button>
+  </view> -->

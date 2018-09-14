@@ -1,0 +1,24 @@
+<view class='container'>
+  <view class='bookInfo'>
+    <text>书名：{{bookName}}</text>
+    <text>作者：{{bookAuthor}}</text>
+  </view>
+
+  <view class='swiper'>
+    <swiper class='img_swiper' circular='true'>
+      <swiper-item>
+        <image class='img_positive' mode = "widthFix" style='width:100%;' bindtap='bindImgPositiveTap' src='{{imgs[0]}}'></image>
+      </swiper-item>
+      <swiper-item>
+        <image class='img_negative' mode = "widthFix" style='width:100%;' bindtap='bindImgNegativeTap' src='{{imgs[1]}}'></image>
+      </swiper-item>
+      <swiper-item>
+        <image class='img_content' mode = "widthFix" style='width:100%;' bindtap='bindImgContentTap' src='{{imgs[2]}}'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <view class='makeSure'>
+    <button class='button01' plain='false' type='primary' bindtap='bindSureTap'>确认捐书</button>
+  </view>
+</view>

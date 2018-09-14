@@ -1,0 +1,32 @@
+page {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.input {
+  margin-top: 20px;
+  height: 50%;
+  width: 100%;
+  position: relative;
+  padding-left: 5px;
+  padding-bottom: 0px;
+}
+
+.inputView {
+  margin-top: 30px;
+  height: 10%;
+  position: relative;
+  border: 2px solid #dcdcdc;
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.exchange {
+  margin-top: 30px;
+}

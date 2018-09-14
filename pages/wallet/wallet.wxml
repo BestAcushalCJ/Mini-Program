@@ -1,0 +1,25 @@
+<view class='container'>
+
+  <view class='vip'>
+    <navigator url='../vip/vip'>
+      <image class='vipimage' src='/pages/images/logo.png'></image>
+    </navigator>
+  </view>
+  <button bindtap='recharge' class='square1'>
+    <image class='icon' src='/pages/images/qianbao.png'></image>
+    <text class='buttontext10'>余额</text>
+    <text class='buttontext12'>{{money}}</text>
+    <!-- <text class='buttontext11'>充值</text>
+    <image src='/pages/images/arrow.png' class='arrow1'></image> -->
+  </button>
+  <button bindtap='forgift' class='square2'>
+    <image class='icon icon1' src='/pages/images/jieyue.png'></image>
+    <text class='buttontext2'>押金</text>
+    <!-- <image src='/pages/images/arrow.png' class='arrow2'></image> -->
+  </button>
+  <button bindtap='exchange' class='square3'>
+    <image class='icon' src='/pages/images/gongxiang.png'></image>
+    <text class='buttontext3'>兑换码</text>
+    <!-- <image src='/pages/images/arrow.png' class='arrow3'></image> -->
+  </button>
+</view>

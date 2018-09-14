@@ -1,0 +1,41 @@
+.a{
+  position: relative;
+  left: +125px;
+  width: 100px;
+  height: 100px;
+}
+.b{
+  position: relative;
+  top:-14px;
+  left: +107px;
+  font-size: 18px;
+  color: #CC6600;
+  font-weight: bold
+}
+.c{
+  position: relative;
+  font-size:14px; 
+  left: +38px;
+  top: -5px;
+}
+.d{
+  font-size: 15px;
+}
+
+.e{
+  position: relative;
+  left: +120px;
+  top: +50px;
+  
+}
+
+.f{
+  color: #FF0000;
+}
+.g{
+  position: relative;
+  width: 70px;
+  height: 70px;
+  left: +40px;
+  top: -21px;
+}

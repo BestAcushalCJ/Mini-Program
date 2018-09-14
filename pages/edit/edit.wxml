@@ -1,0 +1,67 @@
+<view class='container'>
+
+  <view class='item1'>
+    <label class='word-left'>昵称：</label>
+    <input class='word-rightnickname' placeholder='{{nickname}}' bindinput='nicknameInput'></input>
+  </view>
+  <view class="line"></view>
+
+   <view class='item1'>
+    <label class='word-left'>用户名：</label>
+    <label class='word-rightuser'>{{phonenum}}</label>
+  </view>
+  <view class="line"></view> 
+
+  <view class='item2'>
+    <label class='word-left'>我的签名：</label>
+    <input class='word-rightsignature' placeholder='{{signature}}' bindinput='signatureInput'></input>
+  </view>
+  <view class="line"></view>
+
+  <view class='item3'>
+    <label class='word-left'>性别：</label>
+    <radio-group  class="radio-group" bindchange="radioChange">
+      <label class="radio" wx:for="{{items}}">
+        <radio value="{{item.value}}" checked="{{item.checked}}" />{{item.value}}
+      </label>
+    </radio-group>
+  </view>
+  <view class="line"></view>
+
+  <view class='item3'>
+    <label class='word-left'>生日：</label>
+    <navigator hover-class='none' url='../birthday/birthday'>
+    <label class='word-rightbirthday'>{{birthday}}</label> 
+    <image class='birthday-icon' src='/pages/images/birthday.png'></image>
+    <image class='arrow' src='/pages/images/arrow.png'></image>
+    </navigator>
+
+  </view>
+  <view class="line"></view>
+
+  <view class='item3'>
+    <label class='word-left'>所在地：</label>
+    <input class='word-rightlocal' placeholder='{{localplace}}' bindinput='localInput'></input>
+    <!-- <image class='hometown-icon' src='/pages/images/hometown.png'></image>
+    <image class='arrow' src='/pages/images/arrow.png'></image> -->
+  </view>
+  <view class="line"></view>
+
+  <view class='item4'>
+    <label class='word-left'>手机号码：</label>
+    <text class='phonenum'>{{phonenum}}</text>
+    <switch checked='{{phonenumSta}}' bindchange="switch1Change" />
+  </view>
+  <view class="line"></view>
+
+  <view class='item4'>
+    <label class='word-left'>微信号：</label>
+    <text class='weixinnum'>{{weixinnum}}</text>
+    <switch checked='{{weixinnumSta}}' bindchange="switch2Change" />
+  </view>
+  <view class="line"></view>
+
+  <view class='edit'>
+    <button class="editBtn" type='warn'  size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="finish">完 成</button>
+  </view>
+</view>

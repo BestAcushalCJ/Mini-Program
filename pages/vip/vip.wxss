@@ -1,0 +1,18 @@
+.container{
+  height: 100%;
+  width: 100%;
+}
+.vipimages{
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  margin-top: 10px
+}
+.vip{
+  height: 150px;
+  width: 45%;
+}

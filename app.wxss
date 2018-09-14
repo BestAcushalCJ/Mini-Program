@@ -1,0 +1,2 @@
+ @import './pullUpLoading/main/index.wxss';
+page{ height: 100%; } 

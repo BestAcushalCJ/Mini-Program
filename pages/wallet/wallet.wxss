@@ -1,0 +1,170 @@
+.icon{
+  position: relative;
+  top: 6px;
+  left: -120px;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+.icon1{
+    /* position: relative;
+    top: +6px;
+    left: -97px;
+    height: 50px;
+    width: 50px; */
+  left: -130px;
+}
+/* .icon2{
+
+} */
+/* .icon2{
+  position: relative;
+  top: +6px;
+  left: -117px;
+  height: 50px;
+  width: 50px;
+
+}
+.icon3{
+  position: relative;
+  top: +6px;
+  left: -110px;
+  height: 50px;
+  width: 50px;
+
+} */
+.arrow{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 120px;
+  top: +3px;
+}
+.arrow1{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 100px;
+  top: +3px;
+}
+.arrow2{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 120px;
+  top: +3px;
+}
+.arrow3{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left: 110px;
+  top: +3px;
+}
+.square1{
+  background-color: white;
+  height: 70px;
+}
+.square2{
+  position: relative;
+  top: +5px;
+  background-color: white;
+  height: 70px;
+}
+.square3{
+  position: relative;
+  top: +10px;
+  background-color: white;
+  height: 70px;
+}
+.vipimage{
+  height: 200px;
+  width: 375px;
+}
+.buttontext{
+  position: relative;
+  left: 90px;
+  top: 6px;
+  font-size: 25px;
+  height: 50px;
+  height: 50px;
+}
+.buttontext10{
+  position: relative;
+  left: -110px;
+  top: -1px;
+  font-size: 20px;
+}
+
+.buttontext11{
+  position: relative;
+  left: +100px;
+  top: -1px;
+  font-size: 20px;
+}
+
+.buttontext12{
+  position: relative;
+  left: -70px;
+  top: -1px;
+  font-size: 20px;
+}
+
+.buttontext2{
+  position: relative;
+  left: -117px;
+  top: -1px;
+  font-size: 20px;
+}
+.buttontext3{
+  position: relative;
+  left: -110px;
+  top: -1px;
+  font-size: 20px;
+}
+.line {
+  width: 80%;
+  height: 1px;
+  background-color: #ccc;
+  
+}
+.word-left {
+
+  width: auto;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.word-right {
+
+  width: auto;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  color: grey;
+  font-size: 15px;
+}
+.item2 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  position: relative;
+  top: +16px
+}
+.item{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.recharge{
+  position: relative;
+  width: 90px;
+  height: 40px;
+  left: 120px;
+  top: +3px;
+}

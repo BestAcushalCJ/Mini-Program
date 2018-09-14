@@ -1,0 +1,94 @@
+<import src="/pullUpLoading/main/index.wxml" />
+
+<view class='container'>
+
+  <view class="page">
+
+    <!--顶部导航栏-->
+    <view class="swiper-tab">
+      <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">热门推荐</view>
+      <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">借阅榜单</view>
+      <view class="tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">用户榜单</view>
+    </view>
+
+    <!--内容主体-->
+    <swiper class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange">
+      <swiper-item>
+        <scroll-view scroll-y="true" bindscrolltolower="pullUpLoadingEvent">
+          <view class="skeleton-group" wx:for="{{hot_book}}" wx:key="{{index}}">
+            <navigator url='../book/book?id={{item.bookid}}'>
+              <view class="skeleton-group-cover">
+                <view class='book'>
+                  <image class='book' src="{{item.tag}}" mode='scaleToFill' />
+                </view>
+              </view>
+              <view class="skeleton-group-text">
+                <view class="skeleton-group-title">{{item.bookname}}</view>
+                <view class="skeleton-group-desc">
+                  <view>{{item.type}}</view>
+                  <view>{{item.edition}}</view>
+                  <view>{{item.author}}</view>
+                </view>
+              </view>
+            </navigator>
+          </view>
+        </scroll-view>
+      </swiper-item>
+
+
+      <swiper-item>
+        <scroll-view scroll-y="true" bindscrolltolower="pullUpLoadingEvent">
+          <view class="skeleton-group" wx:for="{{recommend_book}}" wx:key="{{index}}">
+            <navigator url='../book/book?id={{item.bookid}}'>
+              <view class="skeleton-group-cover">
+                <view class='book'>
+                  <image class='book' src="{{item.tag}}" mode='scaleToFill' />
+                </view>
+              </view>
+              <view class="skeleton-group-text">
+                <view class="skeleton-group-title">{{item.bookname}}</view>
+                <view class="skeleton-group-desc">
+                  <view>{{item.type}}</view>
+                  <view>{{item.edition}}</view>
+                  <view>{{item.author}}</view>
+                </view>
+              </view>
+            </navigator>
+          </view>
+        </scroll-view>
+      </swiper-item>
+      <swiper-item>
+        <scroll-view scroll-y="true" bindscrolltolower="pullUpLoadingEvent">
+          <view class="person" wx:for="{{user}}" wx:key="{{index}}">
+          <view class='user_av'>
+             <view class='user_pic'>
+              <image class='user_avatar' src='../images/user1.png'></image>
+              </view>
+              <view class='uservip'>
+              <image class='uservipimg' src='../images/viplog.png'></image>
+              </view>
+              <view class='user_name'>
+              <text class='user_nickname'>{{item.nickname}}</text>
+              </view>
+
+          </view>
+             
+              <view class='usersomenum'>
+                     <view class='userbook'>
+              <text class='userbooknum'>借阅数目： {{item.count}}</text>
+              </view>
+              <view class='usermark'>
+              <text class='usermarknum'>当前排名： {{item.count}}</text>
+              </view>
+              </view>
+             
+            <view class='line'></view>
+          </view>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
+  </view>
+
+
+</view>
+<template is="pull-up-loading" data="{{ ...pullUpLoading }}"></template>

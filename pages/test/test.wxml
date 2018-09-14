@@ -1,0 +1,74 @@
+ <!-- <view class='container'>
+
+  <view>
+    <scroll-view scroll-x="true" style='width:100%'>
+      <view class="upload_Item"> 
+  <image class="upload_Item_img" src="../images/4.jpg"></image> 
+ </view> 
+ <view class="upload_Item"> 
+  <image class="upload_Item_img" src="../images/5.jpg"></image> 
+ </view> 
+ <view class="upload_Item"> 
+  <image class="upload_Item_img" src="../images/6.jpg"></image> 
+ </view> 
+ <view class="upload_Item"> 
+  <image class="upload_Item_img" src="../images/7.jpg"></image> 
+ </view> 
+    </scroll-view>
+  </view>
+
+
+</view>  -->
+
+ <view class='container'>
+
+<navigator url='../test/test'>
+    <view class='navigation'>
+      <text decode="{{true}}">更多推荐&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></text>
+    </view>
+  </navigator> 
+
+<view>
+    <scroll-view scroll-x="true" class='roll'> 
+      <view class="uploadWrap" scroll-x="true"> 
+        <view class="upload_Item"> 
+         <image class="upload_Item_img" src="../images/4.jpg"></image> 
+        </view> 
+        <view class="upload_Item"> 
+          <image class="upload_Item_img" src="../images/5.jpg"></image> 
+        </view> 
+        <view class="upload_Item"> 
+          <image class="upload_Item_img" src="../images/6.jpg"></image> 
+        </view> 
+        <view class="upload_Item"> 
+          <image class="upload_Item_img" src="../images/7.jpg"></image> 
+        </view> 
+      </view> 
+    </scroll-view> 
+  </view>
+</view> 
+
+
+
+
+
+
+
+<!-- <scroll-view scroll-x="true" class='roll'> 
+
+<view class="uploadWrap" scroll-x="true"> 
+ <view class="upload_Item"> 
+  <image class="upload_Item_img" src="../images/4.jpg"></image> 
+ </view> 
+ <view class="upload_Item"> 
+  <image class="upload_Item_img" src="../images/5.jpg"></image> 
+ </view> 
+ <view class="upload_Item"> 
+  <image class="upload_Item_img" src="../images/6.jpg"></image> 
+ </view> 
+ <view class="upload_Item"> 
+  <image class="upload_Item_img" src="../images/7.jpg"></image> 
+ </view> 
+  
+</view> 
+</scroll-view>  -->

@@ -1,0 +1,38 @@
+<template name = "comment_item">
+ <view class = "comment_card">
+<!--顶部的时间线-->
+<view class='com_txt'>
+<view class='comment_maketime'>{{item.comment_time}}</view>
+</view>
+ 
+  <view class='com_pic'>
+<image class="comment_image" src = "{{item.img_url}}" mode = "aspectFill"></image>
+</view>
+  <view class = "comment_content">
+   <text class = "comment_content_text" style='height:800px;'>{{item.comment}}</text>
+  </view>
+ 
+
+   <view class='com_btn'>
+
+  <view class='collect_sta' bindtap='bindCollectTap'>
+ <image  class='imagecom' src="{{collectStatu?'../images/collected.png':'../images/collectcom.png'}}"></image>
+  </view>
+
+  <view class='sharebook'>
+<image class='imagecom'  src='../images/share.png'></image>
+</view>
+
+<view class='collect_book'>
+<image class='imagecom'  src='../images/mark.png'></image>
+</view>
+
+  </view>
+
+   <view class = "comment_addition">
+    <text class = "comment_author" bindtap='bindAuthorTap'>{{item.nickname}}</text>
+  </view>
+
+  <!--收藏按钮-->
+ </view>
+</template>

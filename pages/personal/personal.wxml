@@ -1,0 +1,97 @@
+<!-- <scroll-view scroll-y="true" > -->
+
+  <view class='headpic'>
+    <navigator url='../info/info' class=''>
+      <image src="/pages/images/logo.png" class="main"></image>
+    </navigator>
+    <text class='word'>{{nickname}}</text>
+    <text class='biaoqian'>月卡用户</text>
+  </view>
+  <view class='data'>
+    <view class='data_n'>
+      <text class='n_n'>余额</text>
+      <text class='n_n'>0</text>
+    </view>
+    <view class='data_n'>
+      <text class='n_n'>积分</text>
+      <text class='n_n'>0</text>
+    </view>
+    <view class='data_n'>
+      <text class='n_n'>优惠券</text>
+      <text class='n_n'>0</text>
+    </view>
+  </view>
+  <view class='p'>
+    <view class='per' bindtap='wallet'>
+      <image class='pp' src='/pages/images/qianbao.png'></image>
+      <view class='txt'>
+        我的钱包
+      </view>
+    </view>
+    <view class='per' bindtap='borrow'>
+      <image class='pp' src='/pages/images/jieyue.png'></image>
+      <view class='txt'>
+       我的借阅
+      </view>
+    </view>
+    <view class='per' bindtap='sharemybook'>
+    <image class='pp' src='/pages/images/gongxiang.png'></image>
+    <view class='txt'>
+        我的共享
+      </view>
+    </view>
+    <view class='per' bindtap='collectbook'>
+    <image class='pp' src='/pages/images/shoucang.png'></image>
+    <view class='txt'>
+        收藏书籍
+      </view>
+    </view>
+    <view class='per' bindtap='follow'>
+    <image class='pp' src='/pages/images/guanzhu.png'></image>
+    <view class='txt'>
+        我的关注
+      </view>
+    </view>
+    <view class='per' bindtap='collectbookcom'>
+    <image class='pp' src='/pages/images/shuping.png'></image>
+    <view class='txt'>
+        收藏书评
+      </view>
+    </view>
+  </view>
+  <view class='personal'>
+    <view bindtap='share' class='square'>
+      <image class='icon' src='/pages/images/gongxiangshuji.png'></image>
+      <text class='buttontext'>共享书籍</text>
+    </view>
+    <view bindtap='contact' class='square'>
+      <image class='icon' src='/pages/images/kefu.png'></image>
+      <text class='buttontext'>联系客服</text>
+    </view>
+    <view bindtap='suggestion' class='square'>
+      <image class='icon' src='/pages/images/yaoqing.png'></image>
+      <text class='buttontext'>邀请好友</text>
+    </view>
+    <view bindtap='contact' class='square'>
+      <image class='icon' src='/pages/images/guanyu.png'></image>
+      <text class='buttontext'>关于我们</text>
+    </view>
+    <view bindtap='usercommit' class='square'>
+      <image class='icon' src='/pages/images/xieyi.png'></image>
+      <text class='buttontext'>用户协议</text>
+    </view>
+    <view bindtap='suggestion' class='square'>
+      <image class='icon' src='/pages/images/fankui.png'></image>
+      <text class='buttontext'>建议反馈</text>
+    </view>
+    <view bindtap='clear' class='square'>
+      <image class='icon' src='/pages/images/huancun.png'></image>
+      <text class='buttontext'>删除缓存</text>
+    </view>
+    <view bindtap='logout' class='square'>
+      <image class='icon' src='/pages/images/tuichu.png'></image>
+      <text class='buttontext'>退出</text>
+    </view>
+    <!-- <button class="square9" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="logout">退出</button> -->
+  </view>
+<!-- </scroll-view> -->

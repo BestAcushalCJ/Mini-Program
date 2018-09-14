@@ -1,0 +1,32 @@
+<view>
+  <!-- <label>{{book.brief}}</label> -->
+  <view class="skeleton-group">
+    <view class="skeleton-group-cover">
+      <view class='book'>
+        <image class='book' mode='scaleToFill' />
+        <!-- src="{{item.tag}}" -->
+      </view>
+    </view>
+    <view class="skeleton-group-text">
+      <view class="skeleton-group-title">{{book.bookname}}</view>
+      <view class="skeleton-group-desc">
+        <view>{{book.type}}</view>
+        <view>{{book.edition}}</view>
+        <view>{{book.author}}</view>
+      </view>
+    </view>
+  </view>
+  <view class='brief'>
+    简介：
+  <text class='gray'>
+  {{book.brief}}
+  </text>
+  </view>
+<!--底部收藏书写评论位于最底下两列-->
+  <view class='bottombtn'>
+
+  <button class='collect' bindtap='collect'>收藏书籍</button>
+  <button class='write' bindtap='write'>书写评论</button>
+
+  </view>
+</view>

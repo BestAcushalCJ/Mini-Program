@@ -1,0 +1,27 @@
+page{
+  height: 100%;
+  width: 100%;
+}
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.picker{
+  height: 300px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.day{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.Btn {
+  width: 80%;
+  margin-top: 35px;
+}

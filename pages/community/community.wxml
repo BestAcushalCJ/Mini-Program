@@ -1,0 +1,25 @@
+<view class='container'>
+
+  <view class='test'>
+    <swiper class="comment_swiper" current="{{current}}" circular="true" bindchange="handleChange">
+      <block wx:for="{{comments}}" wx:for-index="idx" wx:key="{{comment_id}}">
+        <swiper-item class="comment_swiper_item" >
+        <scroll-view scroll-y="true">
+          <view class='box'>
+            <import src="templates/commentItem.wxml" />
+            <template is="comment_item" data="{{item: item,collectStatu}}" />
+          </view>
+        </scroll-view>
+          
+        </swiper-item>
+      </block>
+      <swiper-item></swiper-item>
+    </swiper>
+  </view>
+
+  <view class='comment_bar' bindtap='bindReputationTap'>
+<text class='watchcom'>查看评论</text>
+    <image class='watchimag' src='../images/right.png'></image>
+  </view>
+
+</view>

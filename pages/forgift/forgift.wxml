@@ -1,0 +1,8 @@
+<view class='container'>
+  <view class="inputView">
+    <text>押金金额：400元</text>
+    <text>押金状态：{{forgift}}</text>
+  </view>
+  <button class="exchange" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="handin" hidden='{{Sta}}'>交押金</button>
+  <button class="exchange" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="handout" hidden='{{!Sta}}'>退押金</button>
+</view>

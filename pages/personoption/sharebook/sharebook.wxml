@@ -1,0 +1,3 @@
+<!--pages/personoption/sharebook/sharebook.wxml-->
+<text>这里是共享捐赠书籍入口，请投书之前先扫码，才能投书哦</text>
+<button class='sharebtn' bindtap='donateBookScanCode'>扫码投书</button>

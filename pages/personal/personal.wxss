@@ -1,0 +1,150 @@
+page{
+  height: 100%;
+  width: 100%;
+}
+.main{
+  height: 70px;
+  width:70px;
+  margin: 25px 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.word{
+
+  height: 30px;
+  margin-top: 50px;
+  position: relative;
+  font-size: 18px;
+  top: -15px;
+}
+.biaoqian{
+  background: white;
+  height: 12px;
+  font-size: 10px;
+  margin-top: 65px;
+  margin-left: -65px;
+}
+.one{
+  margin: 10rpx;
+ 
+}
+.two
+{
+  margin: 10rpx;
+  
+}
+.three
+{
+  margin: 10rpx;
+}
+.four
+{
+  margin: 10rpx;
+}
+.five
+{
+  margin: 10rpx;
+}
+.six
+{
+  margin: 10rpx;
+}
+.seven
+{
+  margin: 10rpx;
+}
+.eight
+{
+  margin: 10rpx;
+}
+.nine
+{
+  margin: 10rpx;
+}
+.ten
+{
+  margin: 10rpx;
+}
+
+.headpic{
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #FF4040;
+
+}
+.data{
+  height: 40px;
+  width: 100%;
+  background-color: #EE0000;
+  color: white;
+}
+.data_n{
+  width: 32.5%;
+  display: inline-block;
+  font-size: 10px;
+  text-align: center;
+}
+.n_n{
+  display: inline-block;
+  width: 100%;
+  margin-top: 5px;
+}
+.personal{
+  padding-top: 10px;
+  background-color: whitesmoke
+}
+.buttontext{
+  position: relative;
+  top: -1px;
+  left: 20px;
+  font-size: 12px;
+}
+
+.icon{
+  position: relative;
+  top: 1px;
+  left: 10px;
+  height: 15px;
+  width: 15px;
+  opacity: 0.8;
+}
+.arrow{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 120px;
+  top: +3px;
+}
+.square{
+  height: 30px;
+  position: relative;
+  border-bottom: 1rpx solid #ccc;
+  background-color: white;
+}
+.p{
+  width: 100%;
+  height: auto;
+  border-bottom: 1rpx solid #ccc;
+}
+.per{
+  width: 32.5%;
+  height: 60px;
+  display: inline-block;
+}
+.pp{
+  
+  width: 15%;
+  height:35%;
+  margin: 0px 50px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.txt{
+  text-align: center;
+  width: 100%;
+  height: 20px;
+  line-height: 13px;
+  font-size: 11px;
+}
